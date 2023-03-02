@@ -1,0 +1,46 @@
+:root{--color-white:  #fff;
+      --color-blue :  #3c97ff50;
+      --color-blue2:  #6c85f7;
+      --color-gray :  #4d4d4d;
+        font-family: "VT323", monospace;}
+
+      body{   all: unset;
+          display: flex;
+  justify-content: center;
+      align-items: center;
+      padding-top: 160px;
+ background-color: var(--color-blue);}
+
+    .caixamae{background-color: rgba(37, 19, 119, 0.6);
+                       display: flex;
+                flex-direction: column;
+                   align-items: center;
+               justify-content: center;
+                           gap: 16px;
+                 border-radius: 16px;
+                          size: 50px;
+                       padding: 10px 100px;
+                padding-bottom: 12px;
+                         color: var(--color-white);}
+
+            .caixamae input{background-color: transparent; background-image:url();
+                                      border: none;
+                                     outline: none;
+                                       color: var(--color-white)  ;
+                                   font-size: 24px;
+                                     padding: 8px;
+                               border-bottom: 1px solid var(--color-white);
+                                 font-family: "VT323";}
+
+                               .caixamae input::placeholder{color: var(--color-white);}
+                               .caixamae input:focus{border-bottom: 1px solid rgb(255, 224, 123);}
+
+                               .caixamae button{all: unset; 
+                                   background-color: var(--color-gray);
+                                      border-radius: 6px;
+                                            padding: 4px;}
+
+                                            .caixamae button{border-color: var(--color-white); border-style: solid;}
+                                            .caixamae button:focus{background-color: #253028;}
+                                            .caixamae button:hover{background-color: #1e4e2b;
+                                                padding: 6px;}
